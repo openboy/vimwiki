@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css">
+<title>index</title>
+<meta http-equiv="Content-Type" content="text/html; charset=cp936">
+</head>
+<body>
+
+<ul>
+<li>
+<a href="随手note.html">随手note</a>
+
+<ul>
+<li>
+<a href="打动女人心的十大浪漫方式.html">打动女人心的十大浪漫方式</a> 
+
+</ul>
+<li>
+<a href="链接.html">链接</a>
+
+</ul>
+<h2 id="toc_0.1">计算机</h2>
+<ul>
+<li>
+<a href="windos.html">windos</a>
+
+<li>
+<a href="linux.html">linux</a>
+
+<li>
+<a href="vim.html">vim</a>
+
+<ul>
+<li>
+<a href="git.html">git</a>
+
+</ul>
+</ul>
+ 
+<h1 id="toc_1" class="justcenter">vimwiki语法</h1>
+<pre>
+
+= 一级标题 =  
+== 二级标题 ==
+=== 三级标题 ===
+此次类推。
+
+当标题前面有空白时，标题文本居中对齐。
+       = 我是居中的标题 =
+
+*粗体*  _斜体_  ~~删除线~~   `Some Code 代码` 
+
+注意 这几个针对文本格式的标签，都要求左右留有空白。
+请注意你的代码高亮，一般来说，有了相应的高亮，你用的wiki标签才生效。
+
+^上^标  ,,下,,标
+
+    四个空格缩进的内容会被转成blockquote
+[[Wiki Item]]  这是手动建立维基词条的方式
+[[wiki item|description]]  输出HTML时显示description，链到 wiki item
+http://ktmud.com/  外部URL会被自动转换成链接
+[http://ktmud.com Ktmud]  带文字的外链
+[images/hello.jpg] 输出 &lt;img src="images/hello.jpg" /&gt;
+[[images/hello.jpg]] 输出图片，并链向图片地址
+
+* 无序列表 条目一
+* 无序列表 条目二 
+  - 子列表 条目一
+  - 自列表 条目二
+
+# 有序列表 条目一
+# 有序列表 条目二
+
+* 和 - 是等价的，后面必须跟一个空格
+
+换行:shift+enter
+
+
+</pre>
+
+</body>
+</html>

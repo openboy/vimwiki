@@ -1,0 +1,5 @@
+=msysGit的Git Bash里复制粘贴=
+windows下用msysGit的Git Bash,有一个很令人不爽的特性,不能复制粘贴. 今天这个问题把我搞火了, 就把它解决算了.
+
+    开始-运行-CMD-鼠标上面蓝色title栏，属性-选项-勾选快速编辑模式
+来源via [http://support.microsoft.com/kb/282301 microsoft]
